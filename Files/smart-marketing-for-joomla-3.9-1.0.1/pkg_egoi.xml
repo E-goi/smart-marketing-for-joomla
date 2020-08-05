@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="3.0">
+    <name>PKG_EGOI</name>
+    <author>E-goi</author>
+    <authorEmail>integrations@e-goi.com</authorEmail>
+    <authorUrl>https://www.e-goi.com/</authorUrl>
+    <creationDate>July 2020</creationDate>
+    <copyright>(C) 2020 E-goi. All rights reserved.</copyright>
+    <license>MIT License</license>
+    <packagename>egoi</packagename>
+    <version>1.0.1</version>
+    <url>https://www.e-goi.com/</url>
+    <packager>E-goi</packager>
+    <packagerurl>https://www.e-goi.com/</packagerurl>
+    <description>PKG_EGOI_DESCRIPTION</description>
+    <files folder="packages">
+        <file type="component" id="egoi">com_egoi_component_1.0.1.zip</file>
+        <file type="plugin" id="egoi" group="user">com_user_egoi_plugin_1.0.1.zip</file>
+        <file type="plugin" id="egoi" group="content">com_content_egoi_plugin_1.0.1.zip</file>
+        <file type="package" id="egoi" group="includes">com_egoi_file_1.0.1.zip</file>
+        <file type="module" id="egoi">com_egoi_module_1.0.1.zip</file>
+    </files>
+    <languages folder="language">
+        <language tag="en-GB">en-GB/en-GB.pkg_egoi.sys.ini</language>
+        <language tag="en-US">en-US/en-US.pkg_egoi.sys.ini</language>
+        <language tag="pt-PT">pt-PT/pt-PT.pkg_egoi.sys.ini</language>
+        <language tag="pt-BR">pt-BR/pt-BR.pkg_egoi.sys.ini</language>
+    </languages>
+</extension>

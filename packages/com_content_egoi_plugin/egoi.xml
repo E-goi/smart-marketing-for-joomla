@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="content" method="upgrade">
+	<name>E-goi Front Content</name>
+	<author>E-goi</author>
+	<creationDate>September 2016</creationDate>
+	<copyright>(C) 2020 E-goi, All rights reserved.</copyright>
+	<license>MIT License</license>
+	<authorEmail>admin@e-goi.com</authorEmail>
+	<authorUrl>https://www.e-goi.com</authorUrl>
+	<version>1.0.1</version>
+	<description>PLG_CONTENT_EGOI_XML_DESCRIPTION</description>
+	<files>
+		<filename plugin="egoi">egoi.php</filename>
+		<filename>index.html</filename>
+	</files>
+</extension>

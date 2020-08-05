@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.0" client="site" method="upgrade">
+    <name>MOD_EGOI</name>
+    <author>E-goi</author>
+    <authorEmail>integrations@e-goi.com</authorEmail>
+    <authorUrl>https://www.e-goi.com/</authorUrl>
+    <creationDate>July 2020</creationDate>
+    <copyright>(C) 2020 E-goi. All rights reserved.</copyright>
+    <license>MIT License</license>
+    <packagename>egoi</packagename>
+    <version>1.0.1</version>
+    <url>https://www.e-goi.com/</url>
+    <packager>E-goi</packager>
+    <packagerurl>https://www.e-goi.com/</packagerurl>
+    <description>MOD_EGOI_DESCRIPTION</description>
+    <files>
+        <filename>mod_egoi.xml</filename>
+        <filename module="mod_egoi">mod_egoi.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+    </files>
+    <languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.mod_egoi.ini</language>
+		<language tag="en-GB">en-GB/en-GB.mod_egoi.sys.ini</language>
+    </languages>
+    <config>
+    </config>
+</extension>

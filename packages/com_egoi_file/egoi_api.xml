@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="library" method="upgrade">
+	<name>E-goi API</name>
+	<libraryname>egoi</libraryname>
+	<author>E-goi</author>
+	<authorEmail>integrations@e-goi.com</authorEmail>
+	<authorUrl>https://www.e-goi.com/</authorUrl>
+	<creationDate>July 2020</creationDate>
+	<copyright>(C) 2020 E-goi. All rights reserved.</copyright>
+	<license>MIT License</license>
+	<packagename>egoi</packagename>
+	<version>1.0.1</version>
+	<url>https://www.e-goi.com/</url>
+	<packager>E-goi</packager>
+	<packagerurl>https://www.e-goi.com/</packagerurl>
+	<description>API Version 2 and 3 - E-goi</description>
+	<files>
+		<folder>EgoiApi</folder>
+	</files>
+</extension>

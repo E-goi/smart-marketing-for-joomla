@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.0" method="upgrade">
+    <name>com_egoi</name>
+    <author>E-goi</author>
+    <authorEmail>integrations@e-goi.com</authorEmail>
+    <authorUrl>https://www.e-goi.com/</authorUrl>
+    <creationDate>July 2020</creationDate>
+    <copyright>(C) 2020 E-goi. All rights reserved.</copyright>
+    <license>MIT License</license>
+    <packagename>egoi</packagename>
+    <version>1.0.1</version>
+    <url>https://www.e-goi.com/</url>
+    <packager>E-goi</packager>
+    <packagerurl>https://www.e-goi.com/</packagerurl>
+    <description>Smart Marketing Component for Joomla by E-goi</description>
+
+    <scriptfile>script.php</scriptfile>
+
+    <install> <!-- Runs on install -->
+        <sql>
+            <file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
+        </sql>
+    </install>
+    <uninstall> <!-- Runs on uninstall -->
+        <sql>
+            <file driver="mysql" charset="utf8">sql/uninstall.mysql.utf8.sql</file>
+        </sql>
+    </uninstall>
+    <update>
+        <schemas>
+            <schemapath type="mysql">sql/updates/mysql</schemapath>
+        </schemas>
+    </update>
+    <files folder="site">
+        <filename>index.html</filename>
+        <filename>egoi.php</filename>
+        <filename>controller.php</filename>
+        <filename>router.php</filename>
+        <folder>views</folder>
+        <folder>models</folder>
+        <folder>controllers</folder>
+        <folder>helpers</folder>
+        <folder>assets</folder>
+    </files>
+    <languages folder="languages/site">        
+			<language tag="en-GB">en-GB/en-GB.com_egoi.ini</language>
+			<language tag="en-US">en-US/en-US.com_egoi.ini</language>
+			<language tag="pt-PT">pt-PT/pt-PT.com_egoi.ini</language>
+			<language tag="pt-BR">pt-BR/pt-BR.com_egoi.ini</language>
+    </languages>
+    <administration>
+        <menu link="option=com_egoi" view="egoi" img="components/com_egoi/assets/images/s_egoi.png">COM_EGOI</menu>
+        <submenu> 
+			<menu link="option=com_egoi" view="egoi" img="components/com_egoi/assets/images/s_config.png">COM_EGOI_TITLE_CONFIGURAESGEARISS</menu>
+            <menu link="option=com_egoi&amp;view=egoi&amp;layout=edit_lists" view="egoi" img="components/com_egoi/assets/images/s_lists.png">COM_EGOI_TITLE_EDIT_LISTS</menu>
+			<menu link="option=com_egoi&amp;view=egoi&amp;layout=edit_subscribers" view="egoi" img="components/com_egoi/assets/images/s_lists.png">COM_EGOI_TITLE_EDIT_SUBSCRIBERS</menu>
+			<menu link="option=com_egoi&amp;view=egoi&amp;layout=edit_forms" view="egoi" img="components/com_egoi/assets/images/s_form.jpg">COM_EGOI_TITLE_EDIT_SUBSCRIPTION_FORM</menu>
+        </submenu>
+        <files folder="administrator">
+            <filename>controller.php</filename>
+            <filename>index.html</filename>
+            <filename>egoi.php</filename>
+            <folder>controllers</folder>
+            <folder>assets</folder>
+            <folder>helpers</folder>
+            <folder>models</folder>
+            <folder>sql</folder>
+            <folder>tables</folder>
+            <folder>views</folder>
+            <folder>service</folder>
+        </files>
+        <languages folder="languages/administrator">            
+			<language tag="en-GB">en-GB/en-GB.com_egoi.ini</language>
+			<language tag="en-GB">en-GB/en-GB.com_egoi.sys.ini</language>
+			<language tag="en-US">en-US/en-US.com_egoi.ini</language>
+			<language tag="en-US">en-US/en-US.com_egoi.sys.ini</language>
+			<language tag="pt-PT">pt-PT/pt-PT.com_egoi.ini</language>
+			<language tag="pt-PT">pt-PT/pt-PT.com_egoi.sys.ini</language>
+			<language tag="pt-BR">pt-BR/pt-BR.com_egoi.ini</language>
+			<language tag="pt-BR">pt-BR/pt-BR.com_egoi.sys.ini</language>
+        </languages>
+    </administration>
+</extension>
+<!-- Component built by the Joomla Component Creator -->
+<!-- http://www.component-creator.com/ -->

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset>
+
+              <field name="id" type="text" default="0" label="COM_EGOI_FORM_LBL_EGOI_ID"
+            readonly="true" class="readonly"
+            description="JGLOBAL_FIELD_ID_DESC" /> 
+
+       <field name="apikey" type="text" size="40" class="inputbox"
+                                                    
+            label="COM_EGOI_FORM_LBL_EGOI_APIKEY"
+            description="COM_EGOI_FORM_DESC_EGOI_APIKEY" 
+                                                    
+                                                    
+                                                    
+                                                    filter="safehtml" /> 
+
+       <field name="mailinglistnum" type="text" size="40" class="inputbox"
+                                                    
+            label="COM_EGOI_FORM_LBL_EGOI_MAILINGLISTNUM"
+            description="COM_EGOI_FORM_DESC_EGOI_MAILINGLISTNUM" 
+                                                    
+                                                    
+                                                    
+                                                    filter="safehtml" /> 
+
+       <field name="subscribetext" type="text" size="40" class="inputbox"
+                                                    
+            label="COM_EGOI_FORM_LBL_EGOI_SUBSCRIBETEXT"
+            description="COM_EGOI_FORM_DESC_EGOI_SUBSCRIBETEXT" 
+                                                    
+                                                    
+                                                    
+                                                    filter="safehtml" /> 
+
+       <field name="addsubscribe_myaccounts" type="text" size="40" class="inputbox"
+                                                    
+            label="COM_EGOI_FORM_LBL_EGOI_ADDSUBSCRIBE_MYACCOUNTS"
+            description="COM_EGOI_FORM_DESC_EGOI_ADDSUBSCRIBE_MYACCOUNTS" 
+                                                    
+                                                    
+                                                    
+                                                    filter="safehtml" /> 
+
+       <field name="singleoptin" type="text" size="40" class="inputbox"
+                                                    
+            label="COM_EGOI_FORM_LBL_EGOI_SINGLEOPTIN"
+            description="COM_EGOI_FORM_DESC_EGOI_SINGLEOPTIN" 
+                                                    
+                                                    
+                                                    
+                                                    filter="safehtml" />
+
+	</fieldset>
+
+</form>

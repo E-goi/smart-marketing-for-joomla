@@ -1,0 +1,3 @@
+UPDATE `#__extensions` set `manifest_cache` = '{"name":"EgoiForms","type":"plugin","creationDate":"July 2020","author":"E-goi","copyright":"Copyright (C) 2020 E_goi. All rights reserved.","authorEmail":"","authorUrl":"http:\\/\\/www.e-goi.com","version":"1.0.1","description":"EgoiForms; form inputs frontoffice","group":"","filename":"specification"}' WHERE `name` = 'EgoiForms';
+ALTER TABLE `#__egoi` ADD COLUMN `tag` INT(1) NULL DEFAULT '0' AFTER `groups`;
+ALTER TABLE `#__egoi` ADD COLUMN `client_id` INT(1) NULL DEFAULT '0' AFTER `tag`;
