@@ -2,7 +2,7 @@
 
 * Contributors: E-goi
 * Tags: Newsletter, Subscribe, E-goi, Widget, Subscribe Newsletter, Newsletter Populator, Send Newsletter, Marketing Automation, E-Mail Gatherer, egoi, Mailing List, E-mail Marketing, Email Marketing, Marketing
-* Requires at least: 3.8
+* Requires at least: 3.9
 * Tested up to: 3.9.20
 * Version: 1.0.1
 * License: MIT
